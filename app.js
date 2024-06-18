@@ -63,3 +63,15 @@ Root.render(sample)
             const p= Promise.any([p1,p2,p3])
             p.then(res=>console.log(res))
             p.catch(err=>console.error(err))
+
+
+     //  Async and await
+        async function p(){
+            const resultData = await new Promise((resolve,reject)=>{
+               setTimeout((res)=> resolve('promise get resloved'),5000)
+            })
+            console.log('promise ')
+            console.log(resultData)
+        }
+    p()
+        

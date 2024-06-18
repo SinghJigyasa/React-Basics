@@ -17,3 +17,22 @@ Step1: Paste te CDN link to use react fromt he official react.js website
     ✳️Storing the root container in Root:
                     The Root variable now holds the root container object created by ReactDOM.createRoot. This object has methods for rendering the React component tree.
 
+<!-- Async and await
+    Async🚀
+        - async keyword is used to handle asynchronus function
+        - It always return a promise
+        - if we returning any variable then also it wrap and make promise and then return variable as promise.
+        -Anyway it will return promise always
+
+    await🚀
+        -It will always used inside the async only.
+        -It will always use in the front of promise only.
+        -The await will pause the execution of async function until the promise get settled(resolve/reject)
+    -To handle error for async and await we used try and catch block.
+    -In async and await the awit keyword will pause the execution of async function until the promise get settled but in Promise
+        the exeution will not stop it will move to the next line and when promise get executed then it will return the value.
+    -The fetch() will return promise two time.
+       const response=  await fetch('url)         //Return promise
+       const data = await response.json()        //Again return the promise and then will change into the json()
+
+ -->
